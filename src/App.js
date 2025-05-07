@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import MapPage from './pages/MapPage';
 import Contact from './pages/Contact';
+import Education from './pages/Education';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/peta" element={<MapPage />} />
+            <Route path="/edukasi" element={<Education />} />
             <Route path="/kontak" element={<Contact />} />
           </Routes>
         </main>

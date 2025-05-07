@@ -318,23 +318,7 @@ const Education = () => {
           )}
         </div>
         
-        {/* Newsletter Section */}
-        <div className="mt-16 bg-primary bg-opacity-10 rounded-2xl p-6 sm:p-10">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">Dapatkan Konten Edukasi Terbaru</h2>
-            <p className="text-gray-600 mb-6">Berlangganan newsletter kami untuk mendapatkan artikel, video, dan wawasan pertanian terbaru langsung ke email Anda.</p>
-            <div className="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto">
-              <input
-                type="email"
-                placeholder="Alamat email Anda"
-                className="flex-grow px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
-              />
-              <button className="px-6 py-3 bg-primary text-white font-medium rounded-lg hover:bg-primary-dark transition-colors duration-300">
-                Berlangganan
-              </button>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
   );
