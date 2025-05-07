@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# SmartFarm Connect
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![SmartFarm Connect Logo](./src/assets/images/logo.svg)
 
-## Available Scripts
+SmartFarm Connect adalah platform inovatif yang menghubungkan petani dengan masyarakat umum, pembeli, dan pemerintah untuk membangun ekosistem pertanian yang lebih baik dan berkelanjutan.
 
-In the project directory, you can run:
+## Deskripsi Proyek
 
-### `npm start`
+SmartFarm Connect bertujuan untuk menjadi jembatan antara petani dan masyarakat demi ketahanan pangan. Aplikasi ini menyediakan berbagai fitur untuk menghubungkan petani dan masyarakat, termasuk:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Pemetaan Petani**: Temukan lokasi petani terdekat dengan mudah melalui peta interaktif.
+- **Informasi Komoditas**: Akses informasi lengkap tentang berbagai komoditas pertanian yang tersedia.
+- **Koneksi Langsung**: Hubungi petani secara langsung untuk memenuhi kebutuhan hasil pertanian Anda.
+- **Edukasi Pertanian**: Dapatkan informasi dan pengetahuan terbaru tentang praktik pertanian modern.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Struktur Halaman
 
-### `npm test`
+1. **Beranda (Home)**
+   - Banner besar dengan tagline dan ilustrasi pertanian pintar
+   - Deskripsi singkat tentang SmartFarm Connect
+   - Fitur-fitur utama aplikasi
+   - Statistik pengguna
+   - Call-to-action buttons
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Peta Sebaran**
+   - Peta interaktif menggunakan Leaflet.js
+   - Marker untuk lokasi petani
+   - Filter berdasarkan komoditas
+   - Popup profil petani
+   - Statistik sebaran
 
-### `npm run build`
+3. **Kontak**
+   - Formulir kontak
+   - Informasi kontak alternatif
+   - FAQ
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Teknologi yang Digunakan
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React**: Library JavaScript untuk membangun antarmuka pengguna
+- **React Router**: Untuk navigasi antar halaman
+- **Tailwind CSS**: Framework CSS untuk styling
+- **Leaflet.js**: Library untuk peta interaktif
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Cara Menjalankan Proyek
 
-### `npm run eject`
+### Prasyarat
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Node.js (versi 14 atau lebih baru)
+- npm atau yarn
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Instalasi
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone repositori ini
+   ```
+   git clone https://github.com/username/smartfarm-connect.git
+   cd smartfarm-connect
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Install dependensi
+   ```
+   npm install
+   ```
 
-## Learn More
+3. Jalankan aplikasi dalam mode pengembangan
+   ```
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Buka [http://localhost:3000](http://localhost:3000) untuk melihat aplikasi di browser
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Build untuk Produksi
 
-### Code Splitting
+```
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Perintah ini akan membuat build aplikasi untuk produksi di folder `build`.
 
-### Analyzing the Bundle Size
+## Kontribusi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Kontribusi selalu diterima! Jika Anda ingin berkontribusi pada proyek ini, silakan fork repositori ini dan buat pull request.
 
-### Making a Progressive Web App
+## Lisensi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Proyek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
 
-### Advanced Configuration
+## Kontak
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Jika Anda memiliki pertanyaan atau saran, silakan hubungi kami di info@smartfarmconnect.id.
